@@ -25,3 +25,4 @@ C:\Users\pc\Documents\workspace\dotnet\CRUD\CRUD\obj\Debug\net6.0\refint\CRUD.dl
 C:\Users\pc\Documents\workspace\dotnet\CRUD\CRUD\obj\Debug\net6.0\CRUD.pdb
 C:\Users\pc\Documents\workspace\dotnet\CRUD\CRUD\obj\Debug\net6.0\CRUD.genruntimeconfig.cache
 C:\Users\pc\Documents\workspace\dotnet\CRUD\CRUD\obj\Debug\net6.0\ref\CRUD.dll
+C:\Users\pc\Documents\workspace\dotnet\CRUD\CRUD\bin\Debug\net6.0\Newtonsoft.Json.dll

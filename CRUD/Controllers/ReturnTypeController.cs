@@ -7,11 +7,12 @@ namespace CRUD.Controllers
     [ApiController]
     public class ReturnTypeController : ControllerBase
     {
+        [HttpGet]
         public string returnString()
         {
             return "string value";
         }
-
+        [HttpGet]
         public ExampleModel returnObject()
         {
             ExampleModel model = new ExampleModel()
@@ -23,7 +24,7 @@ namespace CRUD.Controllers
             // var returnString = JsonSerializer.Serialize(model);
             return model;
         }
-
+        [HttpGet]
         public List<ExampleModel> returnList()
         {
             return new List<ExampleModel>
@@ -32,7 +33,7 @@ namespace CRUD.Controllers
                 new ExampleModel() { id = 2, name ="Mikael",age = 55}
             };
         }
-
+        [HttpGet]
         public IEnumerable<ExampleModel> returnEnumerable()
         {
             return new List<ExampleModel>
@@ -41,7 +42,7 @@ namespace CRUD.Controllers
                 new ExampleModel() { id = 2, name ="Mikael",age = 55}
             };
         }
-
+        [HttpGet]
         [Route("{id}")]
         public IActionResult returnActionResult(int id)
         {
@@ -56,7 +57,7 @@ namespace CRUD.Controllers
             }
             );
         }
-
+        [HttpGet]
         [Route("{id}/basics")]
         public ActionResult<List<ExampleModel>> returnActionResultType(int id)
         {
