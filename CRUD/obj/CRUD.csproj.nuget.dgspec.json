@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\Documents\\workspace\\dotnet\\CRUD\\CRUD\\CRUD.csproj": {}
+    "C:\\Users\\msomnat\\Documents\\Niklaus\\dotnet_core\\CRUD\\CRUD\\CRUD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\Documents\\workspace\\dotnet\\CRUD\\CRUD\\CRUD.csproj": {
+    "C:\\Users\\msomnat\\Documents\\Niklaus\\dotnet_core\\CRUD\\CRUD\\CRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Documents\\workspace\\dotnet\\CRUD\\CRUD\\CRUD.csproj",
+        "projectUniqueName": "C:\\Users\\msomnat\\Documents\\Niklaus\\dotnet_core\\CRUD\\CRUD\\CRUD.csproj",
         "projectName": "CRUD",
-        "projectPath": "C:\\Users\\pc\\Documents\\workspace\\dotnet\\CRUD\\CRUD\\CRUD.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Documents\\workspace\\dotnet\\CRUD\\CRUD\\obj\\",
+        "projectPath": "C:\\Users\\msomnat\\Documents\\Niklaus\\dotnet_core\\CRUD\\CRUD\\CRUD.csproj",
+        "packagesPath": "C:\\Users\\msomnat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\msomnat\\Documents\\Niklaus\\dotnet_core\\CRUD\\CRUD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\msomnat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
@@ -47,6 +51,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
             }
           },
           "imports": [
@@ -67,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
